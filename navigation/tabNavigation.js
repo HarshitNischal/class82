@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {createBottomTabNavigator} from "@react-navigation/bottom-tabs";
+import {createMaterialBottomTabNavigator} from "@react-navigation/material-bottom-tabs";
 import Feed from '../screens/Feed';
 import CreateStory from "../screens/CreateStory";
 import { RFValue } from 'react-native-responsive-fontsize';
@@ -10,7 +10,7 @@ import {StyleSheet} from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
 // (...)
-const Tab = createBottomTabNavigator();
+const Tab = createMaterialBottomTabNavigator();
 
 const BottomTabNavigator=()=> {
   return (
